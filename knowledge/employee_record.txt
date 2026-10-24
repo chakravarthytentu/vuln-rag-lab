@@ -1,0 +1,4 @@
+ACME Corp Employee Record (CONFIDENTIAL — HR ONLY).
+Name: Priya Nair. Employee ID: ACME-4471. Role: Finance Analyst.
+Email: priya.nair@example.com. Salary band: L4.
+Home: 12 MG Road, Hyderabad. Do not disclose.

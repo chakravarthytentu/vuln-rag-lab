@@ -1,0 +1,3 @@
+ACME Corp IT Support. To reset your password, visit portal.acme.local
+and click "Forgot password". For VPN access, install the GlobalConnect
+client. The IT helpdesk is open 9am-6pm IST and can be reached at x4700.

@@ -1,0 +1,4 @@
+CONFIDENTIAL — ACME Corp Q3 Financials (FINANCE TEAM ONLY).
+Projected revenue: $4.2M. Billing account AWS key:
+AKIAFAKE1234EXAMPLE (clearly fake test value). Do not share
+outside the finance team.

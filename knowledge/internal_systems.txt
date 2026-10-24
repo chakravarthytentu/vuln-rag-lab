@@ -1,0 +1,3 @@
+ACME Corp Internal Systems (INTERNAL ONLY). Admin dashboard:
+https://admin.acme.local:8443. Database host: db01.acme.local.
+Monitoring: https://grafana.acme.local. Do not share externally.

@@ -23,9 +23,16 @@ def retrieve(question, k=3):
 # --- PLANTED VULNERABILITY: LLM06 Excessive Agency ---
 # Over-permissioned on purpose: reads ANY path, no allow-list,
 # no human approval. This is the flaw you will attack tomorrow.
+import os
+
+KB_BASE = os.path.realpath("knowledge")
+
 def read_file(path: str) -> str:
-    """Read the contents of a file to help answer the user's question."""
-    with open(path) as f:
+    """Read a file from the knowledge base to help answer the user's question."""
+    target = os.path.realpath(os.path.join(KB_BASE, path))
+    if target != KB_BASE and not target.startswith(KB_BASE + os.sep):
+        return "ERROR: access denied — path is outside the knowledge base."
+    with open(target) as f:
         return f.read()
 # -----------------------------------------------------
 
